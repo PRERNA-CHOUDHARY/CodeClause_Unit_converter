@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Unit Converter By Prerna</title>
+</head>
+<body>
+    <h2 class="align-center">Unit Converter</h2>
+    
+    <div id="input_val" class="">
+        <pre>
+            <label for="input">From:</label></pre>
+        <input type="text" id="input" placeholder="Enter value" >
+        <select name="" id="fromunit">
+            <option value="cm">Centimeters</option>
+            <option value="m">Meters</option>
+            <option value="km">Kilometers</option>
+            <option value="in">Inches</option>
+            <option value="ft">Feet</option>
+            <option value="mi">Miles</option>
+        </select>
+    </div>
+    <div id="output_val" class="">
+        <pre>
+            <label for="output">To:  </label>
+        </pre>
+        <input type="number" id="output" placeholder="Output value" disabled>
+        <select name="" id="tounit">
+            <option value="cm">Centimeters</option>
+            <option value="m">Meters</option>
+            <option value="km">Kilometers</option>
+            <option value="in">Inches</option>
+            <option value="ft">Feet</option>
+            <option value="mi">Miles</option>
+        </select>
+    </div>
+    <button id="convert">Convert</button>
+    <div class="error"></div>
+    <label class="switch">
+      <input type="checkbox" id="darkmode-toggle">
+      <span class="slider round"></span>
+    </label>
+    <script src="script.js"></script>
+</body>
+</html>
