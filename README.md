@@ -27,6 +27,6 @@ This is a simple length converter application that allows users to convert value
 - Improve the appearance of the application.
 
 ## Credits
-This application was created by Prerna Choudhary 
+This application was created by Prerna Choudhary during CodeClause Internship
 
 #### Link 🔗: https://prerna-choudhary.github.io/CodeClause_Unit_converter/
